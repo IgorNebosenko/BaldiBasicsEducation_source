@@ -1,0 +1,9 @@
+c:\users\hazker\documents\visual studio 2015\Projects\Assembly-CSharp\Assembly-CSharp\bin\Debug\Assembly-CSharp.dll
+c:\users\hazker\documents\visual studio 2015\Projects\Assembly-CSharp\Assembly-CSharp\bin\Debug\Assembly-CSharp.pdb
+c:\users\hazker\documents\visual studio 2015\Projects\Assembly-CSharp\Assembly-CSharp\bin\Debug\UnityEngine.dll
+c:\users\hazker\documents\visual studio 2015\Projects\Assembly-CSharp\Assembly-CSharp\bin\Debug\UnityEngine.UI.dll
+c:\users\hazker\documents\visual studio 2015\Projects\Assembly-CSharp\Assembly-CSharp\bin\Debug\UnityEngine.xml
+c:\users\hazker\documents\visual studio 2015\Projects\Assembly-CSharp\Assembly-CSharp\bin\Debug\UnityEngine.UI.xml
+c:\users\hazker\documents\visual studio 2015\Projects\Assembly-CSharp\Assembly-CSharp\obj\Debug\Assembly-CSharp.dll
+c:\users\hazker\documents\visual studio 2015\Projects\Assembly-CSharp\Assembly-CSharp\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Hazker\documents\visual studio 2015\Projects\Assembly-CSharp\Assembly-CSharp\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

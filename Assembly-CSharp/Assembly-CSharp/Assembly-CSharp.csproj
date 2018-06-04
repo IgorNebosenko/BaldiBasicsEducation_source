@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA42A10A-2C24-4ED9-B735-9EC0775BC1A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly_CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgentTest.cs" />
+    <Compile Include="AILocationSelectorScript.cs" />
+    <Compile Include="AlarmClockScript.cs" />
+    <Compile Include="AmbienceScript.cs" />
+    <Compile Include="AudioQueueScript.cs" />
+    <Compile Include="BackButtonScript.cs" />
+    <Compile Include="BaldiScript.cs" />
+    <Compile Include="BasicButtonScript.cs" />
+    <Compile Include="Billboard.cs" />
+    <Compile Include="BsodaEffectScript.cs" />
+    <Compile Include="BsodaSparyScript.cs" />
+    <Compile Include="BullyScript.cs" />
+    <Compile Include="CameraScript.cs" />
+    <Compile Include="ClickableTest.cs" />
+    <Compile Include="CraftersScript.cs" />
+    <Compile Include="CraftersTriggerScript.cs" />
+    <Compile Include="CursorControllerScript.cs" />
+    <Compile Include="DebugFirstPrizeScript.cs" />
+    <Compile Include="DetentionTextScript.cs" />
+    <Compile Include="DoorScript.cs" />
+    <Compile Include="EndlessNotebookScript.cs" />
+    <Compile Include="EndlessTextScript.cs" />
+    <Compile Include="EntranceScript.cs" />
+    <Compile Include="ExitButtonScript.cs" />
+    <Compile Include="ExitTriggerScript.cs" />
+    <Compile Include="FacultyTriggerScript.cs" />
+    <Compile Include="FirstPrizeScript.cs" />
+    <Compile Include="FirstPrizeSpriteScript.cs" />
+    <Compile Include="GameControllerScript.cs" />
+    <Compile Include="GameOverScript.cs" />
+    <Compile Include="HuggingScript.cs" />
+    <Compile Include="JumpRopeScript.cs" />
+    <Compile Include="MathGameScript.cs" />
+    <Compile Include="MouseSliderScript.cs" />
+    <Compile Include="NearExitTriggerScript.cs" />
+    <Compile Include="NotebookScript.cs" />
+    <Compile Include="PickupAnimationScript.cs" />
+    <Compile Include="PickupScript.cs" />
+    <Compile Include="PlayerScript.cs" />
+    <Compile Include="PlaytimeScript.cs" />
+    <Compile Include="PrincipalScript.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuarterSpawnScript.cs" />
+    <Compile Include="ScoreScript.cs" />
+    <Compile Include="Script.cs" />
+    <Compile Include="StartButton.cs" />
+    <Compile Include="SweepScript.cs" />
+    <Compile Include="SwingingDoorScript.cs" />
+    <Compile Include="TapePlayerScript.cs" />
+    <Compile Include="WarningScreenScript.cs" />
+    <Compile Include="YouWonScript.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
